@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yummy</title>
+    <link rel="stylesheet" href="Css/all.min.css">
+    <link rel="stylesheet" href="Css/bootstrap.min.css">
+    <link rel="stylesheet" href="Css/animate.min.css">
+    <link rel="stylesheet" href="Css/sweetalert2.min.css">
+    <link rel="stylesheet" href="Css/style.css">
+    <link rel="shortcut icon" href="imgs/logo.png" type="image/x-icon">
+</head>
+<body class="bg-black">
+    <div id="loading">
+        <div class="d-flex justify-content-center align-items-center h-100">
+        <span class="loader"></span>
+        </div>
+        </div>
+    <main>
+        <div class="sideNavbar min-vh-100 position-fixed d-flex top-0 ">
+        <div class="nav-content d-flex flex-column justify-content-between min-vh-100 p-4 bg-black">
+            <div class="nav-links">
+                <ul class="list-unstyled overflow-hidden">
+                    <li id="SearchBtn"class="animate__animated animate__slideOutDown py-2 position-relative">Search</li>
+                    <li id="categoryBtn" class="animate__animated animate__slideOutDown  py-2 position-relative">Categories</li>
+                    <li id="areaBtn" class="animate__animated animate__slideOutDown py-2 position-relative">Area</li>
+                    <li id="ingredientsBtn" class="animate__animated animate__slideOutDown py-2 position-relative">Ingredients</li>
+                    <li id="contactBtn" class="animate__animated animate__slideOutDown py-2 position-relative">Contact Us</li>
+                </ul>
+            </div>
+            <div class="nav-footer text-white">
+                <div class="icons">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-solid fa-globe"></i>
+                </div> 
+                <div class="footer">
+                    <p>Copyright Â© <span class="text-warning">2024</span> All Rights <br>Reserved.</p>
+                </div>
+            </div>
+        </div>
+        <div class="nav-header d-flex flex-column justify-content-between py-4 text-center px-2 bg-white text-black">
+            <img class="logo" src="imgs/logo.png" alt="" srcset="">
+            <i class="fa-solid main-icon fa-align-justify fa-2x "></i>
+            <div>
+                <i class="fa-solid fa-globe d-block"></i>
+                <i class="fa-solid fa-share-nodes"></i>
+            </div>
+        </div>
+    </div>
+            <div class="searchRow container w-50" id="searchRow">
+            </div>
+    <div class="container mt-4 content">
+        <div class="row g-3" id="row">
+        </div>
+    </div>
+
+    <div class="form container mt-4">
+        <div class="row" id="formRow">
+        </div>
+    </div>
+    </main>
+
+
+
+    <script src="JS/bootstrap.bundle.min.js"></script>
+    <script src="JS/sweetalert2.all.min.js"></script>
+    <script src="JS/jquery.min.js"></script>
+    <script src="JS/index.js"></script>
+</body>
+</html>
